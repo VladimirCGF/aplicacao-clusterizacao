@@ -96,11 +96,11 @@ A solução foi construída utilizando o framework **Streamlit** (Python) e empa
 3. **Print do Repositório Docker Hub:** [Inserir captura da página pública do Docker Hub].
 
 ### 6.2 Link do Repositório no Docker Hub
-- **Link Público:** `https://hub.docker.com/r/<usuario_dockerhub>/rice-gmm-cluster`
+- **Link Público:** `https://hub.docker.com/r/vladimircoutinho/rice-gmm-cluster`
 - **Comando de Pull:**
   ```bash
-  docker pull <usuario_dockerhub>/rice-gmm-cluster:latest
-  docker run -p 8501:8501 <usuario_dockerhub>/rice-gmm-cluster:latest
+  docker pull vladimircoutinho/rice-gmm-cluster:latest
+  docker run -p 8501:8501 vladimircoutinho/rice-gmm-cluster:latest
   ```
 
 ---
